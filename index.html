@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font awosome untuk icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>my Profile</title>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+            <div class="kiri">
+              <ul style="text-align:left;">
+                <li><a href="javascript:void(0);" class="icon" onclick="bar()"> <i class="fa fa-bars"></i></a></li>
+                <li><a class="respon"href="#detail" class="active">DETAIL</a> </li>
+                  <li><a class="respon"href="#sekolah">SEKOLAH</a> </li>
+                <li><a class="respon" href="#kemampuan">KEMAMPUAN</a></li> <br><br><br><br>
+                <div id="bar" style="display:none;"  class="bar">
+                    <a class="respon"href="#detail" class="active">DETAIL</a>
+                    <a class="respon"href="#sekolah">SEKOLAH</a>
+                    <a class="respon" href="#kemampuan">KEMAMPUAN</a>
+                </div>
+              </ul>
+
+            </div>
+            <div class="clear"></div>
+
+    </nav>
+
+    <!-- konten -->
+    <div class="ini-isi">
+        <div class="banner">
+            <img style="z-index: -10;" src="img/baner.jpg" alt="banner"> <!-- gambar cover banner komik -->
+        </div>
+        <div class="isi_konten" style="z-index: -10;">
+            <div class="a" style="border-radius:40px;">
+                <div class="a1" style="border-radius:40px;">
+                    <div class="aa1" style="border-radius:40px;" >
+                        <img src="img/profile.png" alt="foto profil" style="border-radius:25%;">  <!-- cover komik -->
+                    </div>
+                </div>
+                <div class="a2">
+                    <div class="dul">
+                        <p>MOH. FAHRUL HAFIDH</p>
+                    </div>
+                    <div class="par"><p>mahasiswa</p><!-- penulis -->
+                        <p>Cluring, Banyuwangi | 2000</p><!-- ongoing -->
+                    </div>
+                    <div class="btn-kontak" href="javascript:void(0);" onclick="kontak()">
+                        <a href="javascript:void(0);" onclick="kontak()">KIRIMI PESAN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+    <div class="tambahan">
+      <div class="b" id="detail"> <!-- gawe deskripsi-->
+          <div class="isi-b">
+              <h3>Detail</h3  >
+              <p>
+                halo nama saya moh. fahrul hafidh. biasanya dipanggil fahrul, kadang juga dipanggil hafidh. tapi untungnya gk pernah dipalngil moh. saat ini saya sedang berkuliah di UNIVERSITS JEMBER. udah makin tua aja nih. moga tetep semangat dan barokah gue kuliahnya.
+              </p>
+              <p>
+                tempat tinggal dulu sama orang tua di cluring,Banyuwangi
+              </p>
+              <p>sekarang indekos di deket unej, atau lebih tepatnya malahan ndk samping tembok unje, mepet sekali.</p>
+
+              <div class="hidden-content" style="display:none;">
+                <p>sekarang masih sibuk lah, karena anak kos. jadi lumayan sibuk reahan di kasur, wkwkwkwk.</p>
+                <p>sekarang masih semangat semangatnya untuk belajar dunia teknologi kan ya, saya sendiri suka dengan teknologi karena emang keren. bias ngelakuin apa yang manusia biasa tidak bisa dilakukan. seakan akan kita orang yang hebat. padahal tidak.</p>
+                <p>hobi baca-baca komik, sama liat - liat meme, yang terakhir nih hobi buat belajar diberbagai tempat, tentunya yang gatisan. wkwkwkwk.</p>
+
+              </div>
+          </div>
+
+          <div class="btn-banyak">
+              <a href="javascript:void(0)">Tampilkan lebih banyak</a>
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </div>
+      </div>
+
+      <div class="c" id="sekolah"> <!-- gawe tulisan chapter e-->
+          <h3>Sekolah</h3>
+          <div class="cc">
+              <p>2003-2006</p>
+              <p>|</p>
+              <P>PAUD TAMANAGUNG, cluring, Banyuwangi</P> <br>
+              <p>prestasi : </p><br>
+              <ul style="padding-left:30px;">
+                <li>ya bisa bersekolah dengan baik</li>
+              </ul>
+          </div><br>
+          <div class="cc">
+              <p>2006-2012</p>
+              <p>|</p>
+              <p>prestasi : </p><br>
+              <P>MI TARBIYATUL ATHFAL, cluring, Banyuwangi</P><br>
+              <p>prestasi : </p><br>
+              <ul style="padding-left:30px;">
+                <li>juara 1 lukis tingkat kecamatan. dan ikut porseni di banyuwangi.</li>
+              </ul>
+          </div><br>
+          <div class="cc">
+              <p>2012-2015</p>
+              <p>|</p>
+              <P>MTSN 3 Banyuwangi</P><br>
+              <p>prestasi : </p><br>
+              <ul style="padding-left:30px;">
+                <li>juara harapan 1 olimpiade IPA</li>
+                <li>nilai UN terbaik se sekolah</li>
+              </ul>
+          </div><br>
+          <div class="cc">
+              <p>2015-2018</p>
+              <p>|</p>
+              <P>SMAN 1 GENTENG, Banyuwangi</P><br>
+              <p>prestasi : </p><br>
+              <ul style="padding-left:30px;">
+                <li>juara 3 OSK komputer kabupaten banyuwangi</li>
+                <li>bionix juara 2 regional jember</li>
+              </ul>
+          </div>
+      </div>
+
+      <div class="c" id="kemampuan"> <!-- gawe tulisan chapter e-->
+          <h3>Kemampuan</h3>
+          <div class="cc">
+              <p>Adobe XD</p>
+              <p>|</p>
+              <P>buat mockup project web,android dan game.</P>
+          </div>
+          <div class="cc">
+              <p>JAVA</p>
+              <p>|</p>
+              <P>buat aplikasi dengan database SQL, ataupun game sederhana pakai GUI</P>
+          </div>
+          <div class="cc">
+              <p>Python</p>
+              <p>|</p>
+              <P>untuk buat aplikasi sederhana</P>
+          </div>
+          <div class="cc">
+              <p>C++, pascal</p>
+              <p>|</p>
+              <P>buat lomba koding CPC</P>
+          </div>
+          <div class="cc">
+              <p>GODOT</p>
+              <p>|</p>
+              <P>buat game menyenangkan, kemaren buat sooter kayak sper mario tapi bisa nembak</P>
+          </div>
+          <div class="cc">
+              <p>web programing</p>
+              <p>|</p>
+              <P>ya ini, buat web, sampai php dan databe sql baru belajar.</P>
+          </div>
+          <div class="cc">
+              <p>Coreldraw, pothosop</p>
+              <p>|</p>
+              <P>buat desdain banner, logo sederhana, dan foto editing</P>
+          </div>
+      </div>
+    </div>
+ <!-- FOOTER -->
+ <div class="clear"></div>
+
+    <footer>
+      <div>
+          <p>Temukan saya di</p>
+
+      </div>
+        <div>
+            <a href="https://www.facebook.com/fahrul.hafidh">facebook</a>
+            <a href="https://www.instagram.com/fahrulhafidh">instagram</a>
+            <a href="https://github.com/H4rfu1">github</a>
+        </div>
+    </footer>
+    <div id="loading">
+        <p></p>
+    </div>
+
+    <!-- vanilla js -->
+    <script src="js/loading.js"></script>
+    <!-- pakai jquery -->
+    <script src="js/jquery/jquery-3.4.1.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/lebihBanyak.js"></script>
+
+    <!-- js in line file -->
+    <script>
+        function kontak() {
+            document.getElementById("beli").style.display = "flex";
+        }
+        function tutup() {
+            document.getElementById("beli").style.display = "none";
+        }
+        function kontak(){
+          window.location.href = "https://api.whatsapp.com/send?phone=6283111712794";
+        }
+    </script>
+</body>
+</html>
